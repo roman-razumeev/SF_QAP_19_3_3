@@ -21,8 +21,41 @@ new_pet = {
   "status": "available"
 }
 
+# Order
+order = {
+  "id": 0,
+  "petId": 0,
+  "quantity": 0,
+  "shipDate": "0",
+  "status": "placed",
+  "complete": True
+}
+
+users_list = [
+  {
+    "id": 12345,
+    "username": "RomanR",
+    "firstName": "Roman",
+    "lastName": "Romanov",
+    "email": "roman@roman.org",
+    "password": "qwe123",
+    "phone": "+79039033030",
+    "userStatus": 0
+  },
+  {
+    "id": 0,
+    "username": "RomanY2",
+    "firstName": "Roman2",
+    "lastName": "Romanov2",
+    "email": "roman2@romanov2.org",
+    "password": "qwe456",
+    "phone": "+79049042020",
+    "userStatus": 0
+  }
+]
+
 # new user
-new_user = {
+user_frame = {
   "id": 0,
   "username": "RRomanov",
   "firstName": "Roman",
@@ -45,6 +78,3 @@ updated_user = {
   "userStatus": 0
 }
 
-# user data
-username = 'Roman'
-password = '123456'
